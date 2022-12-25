@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | [Blogr]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+<body>
+      <!-- Start of Navigation -->
+      <nav id="main-nav">
+        <div class="container">
+          <a href="/" class="nav-logo d-grid">
+            <img src="./images/logo.svg" alt="logo">
+          </a>
+          <span id="nav-toggle" class="mobile-only">
+            <img id="toggle-open" class="active" src="./images/icon-hamburger.svg" alt="">
+            <img id="toggle-close" src="./images/icon-close.svg" alt="">
+          </span>
+          <ul id="menubar" class="nav-flex">
+            <li>
+              <a href="/" class="menuitem">
+                Product
+              </a>
+              <img class="arrow" src="./images/icon-arrow-dark.svg" class="mobile-only" alt="arrow">
+              <img class="arrow" src="./images/icon-arrow-light.svg" class="desktop-only" alt="arrow">
+              <ul class="submenu">
+                <li class="nav-link">Overview</li>
+                <li class="nav-link">Pricing</li>
+                <li class="nav-link">Marketplace</li>
+                <li class="nav-link">Features</li>
+                <li class="nav-link">Integrations</li>
+              </ul>
+            </li>
+            <li>
+              <a href="/" class="menuitem">Company</a>
+              <img class="arrow" src="./images/icon-arrow-dark.svg" class="mobile-only" alt="arrow">
+              <img class="arrow" src="./images/icon-arrow-light.svg" class="desktop-only" alt="arrow">
+              <ul class="submenu">
+                <li class="nav-link">About</li>
+                <li class="nav-link">Team</li>
+                <li class="nav-link">Blog</li>
+                <li class="nav-link">Careers</li>
+              </ul>
+            </li>
+            <li>
+              <a href="/" class="menuitem">Contact</a>
+              <img class="arrow" src="./images/icon-arrow-dark.svg" class="mobile-only" alt="arrow">
+              <img class="arrow" src="./images/icon-arrow-light.svg" class="desktop-only" alt="arrow">
+              <ul class="submenu">
+                <li class="nav-link">Contact</li>
+                <li class="nav-link">Newsletter</li>
+                <li class="nav-link">LinkedIn</li>
+              </ul>
+            </li>
+            <li class="nav-btns">
+              <a href="/" class="btn btn-outline">Login</a>
+              <a href="/" class="btn btn-filled">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End of Navigation -->
+  <!-- Start of Header -->
+  <header>
+    <div class="container d-grid">
+      <div class="d-grid">
+        <div class="text">
+          <h1 class="h1">A modern publishing platform</h1>
+          <p>Grow your audience and build your online brand</p>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a href="#" class="btn btn-filled">Start for Free</a>
+        <a href="#" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+    <img class="ptrn mobile-only" src="./images/bg-pattern-intro-mobile.svg" alt="">
+    <img class="ptrn desktop-only" src="./images/bg-pattern-intro-desktop.svg" alt="">
+  </header>
+  <!-- End of Header -->
+
+  <!-- Start of Overview Section -->
+  <section id="Overview" class="d-grid">
+    <h2 class="h3">Designed for the future</h2>
+    <div class="container d-grid">
+      <img class="editor mobile-only" src="./images/illustration-editor-mobile.svg" alt="">
+      <img class="editor desktop-only" src="./images/illustration-editor-desktop.svg" alt="">
+      <div class="overview-text d-grid">
+        <div class="d-grid sg">
+          <h3 class="h3">Introducing an extensible editor</h3>
+          <p>Introducing an extensible editor
+            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+            change the looks of a blog.</p>
+        </div>
+        <div class="d-grid sg">
+          <h3 class="h3">Robust content management</h3>
+          <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Overview Section -->
+
+  <!-- Start of Art section -->
+  <section id="art">
+    <div class="container">
+      <div class="img-placeholder">
+        <img class="phones-img" src="./images/illustration-phones.svg" alt="">
+      </div>
+      <div class="art-text d-grid sg">
+        <h2 class="h2">State of the Art Infrastructure</h2>
+          <p>With reliability and speed in mind, worldwide data       centers provide the backbone for ultra-fast connectivity. 
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+      </div>
+    </div>
+  </section>
+  <!-- end of Art section -->
+
+  <!-- Start of Features Section -->
+  <section id="features" class="d-grid">
+    <div class="container d-grid">
+      <img class="laptop mobile-only" src="./images/illustration-laptop-mobile.svg" alt="">
+      <img class="laptop desktop-only" src="./images/illustration-laptop-desktop.svg" alt="">
+      <div class="features-text d-grid">
+        <div class="d-grid sg">
+          <h3 class="h3">Introducing an extensible editor</h3>
+          <p>Introducing an extensible editor
+            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+            change the looks of a blog.</p>
+        </div>
+        <div class="d-grid sg">
+          <h3 class="h3">Robust content management</h3>
+          <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Features Section -->
+
+  <!-- Start Of Footer -->
+  <footer>
+    <div class="container footer-flex">
+      <a href="/" class="footer-logo">
+        <img src="./images/logo.svg" alt="logo">
+      </a>
+      <nav id="sec-nav">
+        <ul class="nav-licks">
+          <li class="nav-link top"><strong>Product</strong></li>
+          <li class="nav-link">Overview</li>
+          <li class="nav-link">Pricing</li>
+          <li class="nav-link">Marketplace</li>
+          <li class="nav-link">Features</li>
+          <li class="nav-link">Integrations</li>
+        </ul>
+        <ul class="nav-licks">
+          <li class="nav-link top"><strong>Company</strong></li>
+          <li class="nav-link">About</li>
+          <li class="nav-link">Team</li>
+          <li class="nav-link">Blog</li>
+          <li class="nav-link">Careers</li>
+        </ul>
+        <ul class="nav-licks">
+          <li class="nav-link top"><strong>Contact</strong></li>
+          <li class="nav-link">Contact</li>
+          <li class="nav-link">Newsletter</li>
+          <li class="nav-link">LinkedIn</li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <!-- End Of Footer -->
+
+  <script src="./main.js"></script>
+</body>
+</html>
